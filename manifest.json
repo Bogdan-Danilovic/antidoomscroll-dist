@@ -1,7 +1,7 @@
 {
-    "versionCode":  2,
-    "versionName":  "0.2.0",
-    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v2/antidoomscroll-2.apk",
-    "sha256":  "dc37fd4af96d92184df811c789998ae88a1c4cc6c4654f78c768e1f4e96aa009",
-    "changelog":  "Kratke kartice (15–20 s), Fokus, 74 pitanja iz limesa i 60 iz integrala, ažuriranja preko interneta."
+    "versionCode":  3,
+    "versionName":  "0.2.1",
+    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v3/antidoomscroll-3.apk",
+    "sha256":  "fd12ecfe543446ba0b7ef9bb2c2d2a1b9b491a5dcb506280d03b50b3d72151af",
+    "changelog":  "Test ažuriranja preko interneta (v0.2.1)."
 }
