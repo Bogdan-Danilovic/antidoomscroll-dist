@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "verifiedOn": "Instagram 455.0.0.0.56 / HyperOS OS3.0.304.0 (Android 16) / 2026-11-06 / Inspector captures of all 8 screens",
+  "instagramPackage": "com.instagram.android",
+  "screens": [
+    {
+      "screen": "STORY",
+      "anyOf": ["reel_viewer_root", "reel_viewer_progress_bar", "reel_viewer_media_container", "reel_viewer_header"],
+      "noneOf": ["clips_viewer_view_pager", "clips_video_container", "root_clips_layout"],
+      "note": "Story viewer (verified: story). Never touched. Before REELS: both use reel_* ids; the DM reel viewer also has reel_viewer_message_composer, so that id is deliberately NOT a story marker."
+    },
+    {
+      "screen": "REELS",
+      "anyOf": ["root_clips_layout", "clips_viewer_view_pager", "clips_video_container"],
+      "note": "Every full-screen reel viewer. Verified: reels_tab (with tab_bar), explore_reel and dm_reel (no tab_bar; dm_reel adds reply_bar_container)."
+    },
+    {
+      "screen": "PROFILE",
+      "anyOf": ["user_detail_fragment", "profile_header_container", "row_profile_header", "profile_tabs_container"],
+      "note": "Any profile, own or other, posts grid or reels grid (verified: profile_grid, profile_grid2, profile_posts_grid). Before DM: business profiles show a peeking 'Message' sheet that contains DM composer ids."
+    },
+    {
+      "screen": "PROFILE",
+      "allOf": ["action_bar_button_back", "row_feed_profile_header"],
+      "noneOf": ["sticky_header_list"],
+      "note": "A post list opened from a grid (one account's posts; also Explore post lists). Verified: profile_posts, profile_posts_scrolled. Has a back button and no sticky_header_list, unlike the home feed."
+    },
+    {
+      "screen": "DM",
+      "anyOf": ["thread_view_root", "message_list", "direct_thread_header", "row_thread_composer_edittext", "direct_inbox_action_bar"],
+      "selectedTabAnyOf": ["direct_tab"],
+      "note": "Inbox + thread. Verified: dm_inbox (direct_inbox_action_bar, Message tab selected), dm_thread (thread_view_root, message_list). Never touched."
+    },
+    {
+      "screen": "EXPLORE",
+      "anyOf": ["explore_action_bar", "grid_card_layout_container", "action_bar_search_edit_text"],
+      "selectedTabAnyOf": ["search_tab"],
+      "noneOf": ["sticky_header_list"],
+      "note": "Explore grid and search. Free. Verified: explore_grid."
+    },
+    {
+      "screen": "FEED",
+      "allOf": ["sticky_header_list"],
+      "noneOf": ["user_detail_fragment", "action_bar_button_back"],
+      "note": "Home feed. sticky_header_list survives scrolling (title_logo / main_feed_action_bar / reels_tray_container only at the top). Verified: feed, feed_scrolled."
+    }
+  ],
+  "tabs": {
+    "tabBar": "tab_bar",
+    "selectedMarkerChild": ["tab_icon", "tab_avatar"],
+    "directTab": "direct_tab"
+  },
+  "feed": {
+    "username": ["row_feed_photo_profile_name"],
+    "header": ["row_feed_profile_header"]
+  }
+}
