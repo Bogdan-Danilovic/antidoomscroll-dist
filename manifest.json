@@ -1,7 +1,7 @@
 {
-    "versionCode":  5,
-    "versionName":  "0.2.3",
-    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v5/antidoomscroll-5.apk",
-    "sha256":  "247cd4febbebaf458a5cb93a81664b848c316f4afe216aa1628ac9661e6171dd",
-    "changelog":  "Kviz više nikad nije crn ekran: rezervna kartica ako se pitanje ne iscrta, jasna poruka dok traje kazna, dijagnostika u health logu"
+    "versionCode":  6,
+    "versionName":  "0.2.4",
+    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v6/antidoomscroll-6.apk",
+    "sha256":  "89b005214064c0e20817b20f8b23bf8c7ee397e50226ddc80b5791eeb65a8b39",
+    "changelog":  "Ispravka: kazna u kvizu se više ne zamrzava na 20 s posle restarta telefona; provera ažuriranja pri otvaranju aplikacije"
 }
