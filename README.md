@@ -11,7 +11,9 @@ this repository only carries what the installed app downloads:
 | `decks/index.json` | List of quiz deck files in `decks/` (format: deck v3 with short cards). |
 | `decks/*.json` | Quiz decks. |
 
-Served with GitHub Pages from `main` (`https://bogdan-danilovic.github.io/antidoomscroll-dist/`).
-Everything here is published with `tools/publish.ps1` from the private source repo.
+Served by Vercel from `main` (auto-deploy on push): `https://antidoomscroll-dist.vercel.app/`.
+`vercel.json` sends `Cache-Control: no-cache` for the JSON files, so a push is visible within
+seconds of the deploy. Everything here is published with `tools/publish.ps1` from the private
+source repo.
 
 Nothing secret belongs here: no keystores, passwords, configs or personal data.
