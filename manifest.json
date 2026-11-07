@@ -1,7 +1,7 @@
 {
-    "versionCode":  3,
-    "versionName":  "0.2.1",
-    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v3/antidoomscroll-3.apk",
-    "sha256":  "fd12ecfe543446ba0b7ef9bb2c2d2a1b9b491a5dcb506280d03b50b3d72151af",
-    "changelog":  "Test ažuriranja preko interneta (v0.2.1)."
+    "versionCode":  4,
+    "versionName":  "0.2.2",
+    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v4/antidoomscroll-4.apk",
+    "sha256":  "bb375e0126bfa21ae40fca44c7c64d16ef72385d7e030c36c534b5525d757620",
+    "changelog":  "Otpornost: zaštita se sama vraća posle gašenja procesa i bez Autostart-a; pločica u brzim podešavanjima; obaveštenje samo kad zaštita stvarno ne radi."
 }
