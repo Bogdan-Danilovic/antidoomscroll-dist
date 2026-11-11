@@ -1,7 +1,7 @@
 {
-    "versionCode":  6,
-    "versionName":  "0.2.4",
-    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v6/antidoomscroll-6.apk",
-    "sha256":  "89b005214064c0e20817b20f8b23bf8c7ee397e50226ddc80b5791eeb65a8b39",
-    "changelog":  "Ispravka: kazna u kvizu se više ne zamrzava na 20 s posle restarta telefona; provera ažuriranja pri otvaranju aplikacije"
+    "versionCode":  7,
+    "versionName":  "0.2.5",
+    "apkUrl":  "https://github.com/Bogdan-Danilovic/antidoomscroll-dist/releases/download/v7/antidoomscroll-7.apk",
+    "sha256":  "2e3a8205ef672977f05936fc24a5f629c70c3dbf1b6d46b6e8a83ddcc0293345",
+    "changelog":  "Ispravka: zaključavanje Reels-a se više ne zamrzava posle restarta telefona (odbrojava i završava na vreme)"
 }
